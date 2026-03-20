@@ -63,3 +63,4 @@ async def extrair_detalhes(page):
             continue
             
     return leads
+    

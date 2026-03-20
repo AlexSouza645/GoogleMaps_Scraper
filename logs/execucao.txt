@@ -1,0 +1,2 @@
+[20/03/2026 18:42:53] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 18:43:16] SUCESSO: 8 leads coletados.
