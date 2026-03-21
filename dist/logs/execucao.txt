@@ -318,3 +318,33 @@
 ║                                                            ║
 ║ <3 Playwright Team                                         ║
 ╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:19:14] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:19:14] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEIYO2bFB/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:20:24] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:20:24] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEInKeWIy/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:22:15] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:22:15] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEI2ZnxSz/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
