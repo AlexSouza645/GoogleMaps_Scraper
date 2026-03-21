@@ -148,3 +148,173 @@
 ║                                                            ║
 ║ <3 Playwright Team                                         ║
 ╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:16:48] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:16:48] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEIXZtXcj/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:16:49] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:16:50] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEITgsTC3/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:16:50] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:16:51] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEI8fIakP/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:16:51] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:16:51] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:16:51] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEIy2m59E/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:16:51] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEIzcvytA/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:18:04] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:18:04] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEI8ALPlv/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:18:10] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:18:11] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEINrYaHJ/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:18:13] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:18:13] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEI2PRpaB/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:18:13] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:18:13] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEI86GCIl/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:18:15] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:18:15] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:18:15] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEI7RvXl2/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:18:15] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEIzuwgKF/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:18:16] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:18:18] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:18:18] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEIq9XxqR/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:18:18] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:18:18] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:18:18] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:18:18] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEIWT7Bqw/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:18:18] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEIaojrye/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:18:18] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEI7vkONx/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:18:18] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEI1cpPAz/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[20/03/2026 19:18:25] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[20/03/2026 19:18:32] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEIwePORS/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
