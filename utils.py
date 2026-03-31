@@ -4,8 +4,7 @@ import re
 
 def limpar_telefone(telefone_sujo):
     """
-    Remove caracteres especiais e garante o formato brasileiro.
-    Exemplo: (11) 98888-7777 -> 11988887777
+    Remove caracteres especiais, limpa zeros do DDD e cria hiperlink do WhatsApp com ícone.
     """
     if not telefone_sujo or telefone_sujo == "N/A":
         return "N/A"
@@ -13,11 +12,22 @@ def limpar_telefone(telefone_sujo):
     # Remove tudo o que não for número usando Regex
     apenas_numeros = re.sub(r'\D', '', telefone_sujo)
     
-    # Se o número for brasileiro e faltar o DDI (55), podemos adicionar
-    if len(apenas_numeros) >= 10 and not apenas_numeros.startswith('55'):
-        return f"55{apenas_numeros}"
+    # Remove o DDI 55 caso exista para evitar duplicidade ou zeros indesejados
+    if apenas_numeros.startswith('55') and len(apenas_numeros) >= 12:
+        apenas_numeros = apenas_numeros[2:]
+        
+    # Remove zeros soltos que as vezes o telefone traz antes do DDD (ex: 011)
+    apenas_numeros = apenas_numeros.lstrip('0')
     
-    return apenas_numeros
+    # Se for muito curto para ser telefone, retorna como está
+    if len(apenas_numeros) < 10:
+        return apenas_numeros
+        
+    # Remonta o número certinho garantindo que só tem 55 + DDD limpo + Numero
+    numero_wa = f"55{apenas_numeros}"
+    
+    # Retorna com o próprio número e um ícone de celular visível e clicável!
+    return f'=HYPERLINK("https://wa.me/{numero_wa}", "📱 {numero_wa}")'
 
 def salvar_excel(lista_leads, nicho, cidade):
     """
@@ -29,9 +39,15 @@ def salvar_excel(lista_leads, nicho, cidade):
 
     df = pd.DataFrame(lista_leads)
 
-    # Aplica a limpeza na coluna de Telefone (Passagem de variável!)
+    # Aplica a limpeza na coluna de Telefone para transformá-la diretamente no Hyperlink do WhatsApp
     if 'Telefone' in df.columns:
         df['Telefone'] = df['Telefone'].apply(limpar_telefone)
+
+    # Reordena as colunas para o Status vir primeiro e sem coluna avulsa do WhatsApp
+    colunas_ordem = ["Status do Lead", "Nome", "E-mail", "Telefone", "Site", "Presença Digital", "Link do Maps"]
+    # Seleciona apenas as colunas que realmente existem (evita erros se algo não for coletado)
+    colunas_ordem = [col for col in colunas_ordem if col in df.columns]
+    df = df[colunas_ordem]
 
     # Remove duplicatas baseadas no Nome e Telefone
     df = df.drop_duplicates(subset=['Nome', 'Telefone'])

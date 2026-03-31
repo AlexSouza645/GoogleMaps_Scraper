@@ -1,2 +1,38 @@
 [20/03/2026 18:42:53] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
 [20/03/2026 18:43:16] SUCESSO: 8 leads coletados.
+[23/03/2026 20:08:41] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[23/03/2026 20:08:41] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEIFsdl0r/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[23/03/2026 20:11:54] --- NOVA EXECUÇÃO: Contabilidade em São Paulo ---
+[23/03/2026 20:11:54] ERRO CRÍTICO na main: Executable doesn't exist at /tmp/_MEILCnZA7/playwright/driver/package/.local-browsers/chromium-1105/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[24/03/2026 20:05:06] --- NOVA EXECUÇÃO: dentista em atibaia ---
+[24/03/2026 20:05:27] SUCESSO: 8 leads coletados.
+[24/03/2026 20:15:31] --- NOVA EXECUÇÃO: dentista em atibaia ---
+[24/03/2026 20:15:53] SUCESSO: 8 leads coletados.
+[25/03/2026 19:49:36] --- NOVA EXECUÇÃO: dentista em atibaia ---
+[25/03/2026 19:49:58] SUCESSO: 8 leads coletados.
+[25/03/2026 19:53:56] --- NOVA EXECUÇÃO: dentista em atibaia ---
+[25/03/2026 19:54:17] SUCESSO: 8 leads coletados.
+[25/03/2026 19:57:16] --- NOVA EXECUÇÃO: contabilidade em atibaia ---
+[25/03/2026 19:57:37] SUCESSO: 8 leads coletados.
+[25/03/2026 20:04:08] --- NOVA EXECUÇÃO: contabilidade em atibaia ---
+[25/03/2026 20:04:30] SUCESSO: 8 leads coletados.
+[31/03/2026 19:57:36] --- NOVA EXECUÇÃO: dentista em atibaia ---
+[31/03/2026 19:57:58] SUCESSO: 8 leads coletados.
+[31/03/2026 20:12:02] --- NOVA EXECUÇÃO: imobiliaria em atibaia ---
+[31/03/2026 20:12:30] SUCESSO: 8 leads coletados.

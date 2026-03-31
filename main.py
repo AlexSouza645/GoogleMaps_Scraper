@@ -1,3 +1,6 @@
+import os
+os.environ["PLAYWRIGHT_BROWSERS_PATH"] = os.path.join(os.environ.get("HOME", "/home/alex"), ".cache", "ms-playwright")
+
 import asyncio
 from scraper_logic import iniciar_busca, extrair_detalhes
 from utils import salvar_excel, registrar_log
@@ -36,8 +39,14 @@ async def rodar_automacao(nicho, cidade):
         registrar_log(erro_msg)
 
 if __name__ == "__main__":
-    # Defina aqui o que você quer buscar
-    PROFISSAO = "Contabilidade"
-    LOCALIDADE = "São Paulo"
+    print("=" * 50)
+    print("🤖 BEM-VINDO AO ROBO DE BUSCA DO GOOGLE MAPS 🤖")
+    print("=" * 50)
     
-    asyncio.run(rodar_automacao(PROFISSAO, LOCALIDADE))
+    PROFISSAO = input("➡️  Digite o nicho/profissão (Ex: Contabilidade, Dentista): ").strip()
+    LOCALIDADE = input("➡️  Digite a cidade/estado (Ex: São Paulo - SP): ").strip()
+    
+    if not PROFISSAO or not LOCALIDADE:
+        print("❌ Erro: Você precisa informar o nicho e a cidade!")
+    else:
+        asyncio.run(rodar_automacao(PROFISSAO, LOCALIDADE))
