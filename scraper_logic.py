@@ -80,7 +80,7 @@ async def extrair_detalhes(page):
     locais = await page.locator('//a[contains(@href, "maps/place")]').all()
     
     # Limitamos aos 10 primeiros para o teste inicial
-    for local in locais[:10]:
+    for local in locais[:5]:                  
         try:
             # 1. Clica no local para abrir os detalhes na direita
             await local.click()
@@ -137,4 +137,3 @@ async def extrair_detalhes(page):
             continue
             
     return leads
-    

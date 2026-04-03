@@ -39,7 +39,7 @@ async def rodar_automacao(nicho, cidade):
         registrar_log(erro_msg)
 
 if __name__ == "__main__":
-    print("=" * 50)
+    print("=" * 50)#   
     print("🤖 BEM-VINDO AO ROBO DE BUSCA DO GOOGLE MAPS 🤖")
     print("=" * 50)
     

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Robô Lead Google Maps
+Comment=Extrator de dados de empresas do Google Maps
+Exec=/home/alex/Documentos/GitHub/GoogleMaps_Scraper/dist/Robo_Maps_Atualizado
+Path=/home/alex/Documentos/GitHub/GoogleMaps_Scraper
+Icon=utilities-terminal
+Terminal=true
+Type=Application
+Categories=Utility;
