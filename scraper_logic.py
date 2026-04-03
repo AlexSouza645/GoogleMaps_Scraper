@@ -54,8 +54,13 @@ async def iniciar_busca(nicho, cidade):
     Inicia o navegador e faz a pesquisa inicial.
     """
     pw = await async_playwright().start()
-    # Lançamos o Chromium. headless=False permite que você veja o robô trabalhando.
-    browser = await pw.chromium.launch(headless=False) 
+    # Para executáveis (PyInstaller), é melhor usar o Chrome ou Edge já instalados
+    # no computador do usuário, em vez de embutir um navegador gigante.
+    try:
+        browser = await pw.chromium.launch(channel="chrome", headless=False)
+    except Exception:
+        browser = await pw.chromium.launch(channel="msedge", headless=False)
+        
     page = await browser.new_page()
     
     # Formata a URL de busca do Google Maps
@@ -64,7 +69,7 @@ async def iniciar_busca(nicho, cidade):
     
     # Espera o carregamento inicial
     await page.wait_for_timeout(3000)
-    return browser, page
+    return pw, browser, page
 
 async def extrair_detalhes(page):
     """

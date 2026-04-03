@@ -38,3 +38,19 @@
 [31/03/2026 20:12:30] SUCESSO: 8 leads coletados.
 [02/04/2026 19:53:50] --- NOVA EXECUÇÃO: imobiliaria em atibaia ---
 [02/04/2026 19:54:30] SUCESSO: 8 leads coletados.
+[03/04/2026 18:52:42] --- NOVA EXECUÇÃO: dentista em mairiporã ---
+[03/04/2026 18:52:42] ERRO CRÍTICO na main: BrowserType.launch: Executable doesn't exist at \home\alex\.cache\ms-playwright\chromium-1208\chrome-win64\chrome.exe
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+[03/04/2026 18:54:50] --- NOVA EXECUÇÃO: dentista em mairiporã ---
+[03/04/2026 18:54:55] ERRO CRÍTICO na main: too many values to unpack (expected 2)
+[03/04/2026 18:55:40] --- NOVA EXECUÇÃO: imobiliaria em mairiporã ---
+[03/04/2026 18:55:44] ERRO CRÍTICO na main: too many values to unpack (expected 2)
+[03/04/2026 18:57:10] --- NOVA EXECUÇÃO: imobiliaria em mairiporã ---
+[03/04/2026 18:57:38] SUCESSO: 5 leads coletados.

@@ -1,6 +1,3 @@
-import os
-os.environ["PLAYWRIGHT_BROWSERS_PATH"] = os.path.join(os.environ.get("HOME", "/home/alex"), ".cache", "ms-playwright")
-
 import asyncio
 from scraper_logic import iniciar_busca, extrair_detalhes
 from utils import salvar_excel, registrar_log
@@ -14,7 +11,7 @@ async def rodar_automacao(nicho, cidade):
         print(f"🚀 Iniciando busca por '{nicho}' em '{cidade}'...")
 
         # 1. Abre o navegador e faz a pesquisa
-        browser, page = await iniciar_busca(nicho, cidade)
+        pw, browser, page = await iniciar_busca(nicho, cidade)
 
         # 2. Extrai os dados dos leads
         print("🕵️  Extraindo dados dos estabelecimentos...")
@@ -22,6 +19,7 @@ async def rodar_automacao(nicho, cidade):
 
         # 3. Fecha o navegador (Importante para liberar memória!)
         await browser.close()
+        await pw.stop()
 
         # 4. Processa e salva os dados se houver resultados
         if lista_leads:

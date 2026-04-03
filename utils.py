@@ -29,13 +29,29 @@ def limpar_telefone(telefone_sujo):
     # Retorna com o próprio número e um ícone de celular visível e clicável!
     return f'=HYPERLINK("https://wa.me/{numero_wa}", "📱 {numero_wa}")'
 
+import sys
+
+def get_base_path():
+    """Retorna o diretório base onde está o script ou o .exe"""
+    if getattr(sys, 'frozen', False):
+        exe_dir = os.path.dirname(sys.executable)
+        # Se o executável estiver rodando de dentro da pasta "dist", 
+        # volta um nível para salvar na pasta "data" raiz do projeto.
+        if os.path.basename(exe_dir).lower() == 'dist':
+            return os.path.dirname(exe_dir)
+        return exe_dir
+    return os.path.dirname(os.path.abspath(__file__))
+
 def salvar_excel(lista_leads, nicho, cidade):
     """
     Recebe a lista de dicionários e converte para uma planilha profissional.
     """
+    base = get_base_path()
+    pasta_data = os.path.join(base, 'data')
+    
     # Cria a pasta 'data' se não existir (Boa prática!)
-    if not os.path.exists('data'):
-        os.makedirs('data')
+    if not os.path.exists(pasta_data):
+        os.makedirs(pasta_data)
 
     df = pd.DataFrame(lista_leads)
 
@@ -52,7 +68,7 @@ def salvar_excel(lista_leads, nicho, cidade):
     # Remove duplicatas baseadas no Nome e Telefone
     df = df.drop_duplicates(subset=['Nome', 'Telefone'])
 
-    nome_arquivo = f"data/leads_{nicho}_{cidade}.xlsx"
+    nome_arquivo = os.path.join(pasta_data, f"leads_{nicho}_{cidade}.xlsx")
     df.to_excel(nome_arquivo, index=False)
     print(f"✅ Dados guardados com sucesso em: {nome_arquivo}")
 
@@ -60,11 +76,15 @@ def registrar_log(mensagem):
     """
     Cria um histórico da execução do robô.
     """
-    if not os.path.exists('logs'):
-        os.makedirs('logs')
+    base = get_base_path()
+    pasta_logs = os.path.join(base, 'logs')
+    
+    if not os.path.exists(pasta_logs):
+        os.makedirs(pasta_logs)
     
     from datetime import datetime
     timestamp = datetime.now().strftime('%d/%m/%Y %H:%M:%S')
     
-    with open("logs/execucao.txt", "a", encoding="utf-8") as f:
+    arquivo_log = os.path.join(pasta_logs, "execucao.txt")
+    with open(arquivo_log, "a", encoding="utf-8") as f:
         f.write(f"[{timestamp}] {mensagem}\n")
