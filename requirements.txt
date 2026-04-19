@@ -1,6 +1,7 @@
 playwright
 pandas
 openpyxl
+xlsxwriter
 beautifulsoup4
 requests
-
+tenacity

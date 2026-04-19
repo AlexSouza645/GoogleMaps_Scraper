@@ -76,9 +76,9 @@ def criar_proposta():
     pdf.set_text_color(31, 78, 120)
     pdf.cell(0, 10, 'Interessado em escalar suas vendas? Fale conosco agora.', ln=True, align='C')
     
-    # Link (Ajuste para o seu número quando tiver o Business)
+    # Link
     pdf.set_font('helvetica', 'U', 11)
-    pdf.cell(0, 10, 'CLIQUE AQUI PARA FALAR NO WHATSAPP', ln=True, align='C', link='https://wa.me/5500000000000')
+    pdf.cell(0, 10, 'CLIQUE AQUI PARA FALAR NO WHATSAPP', ln=True, align='C', link='https://wa.me/5511914942859')
 
     pdf.output('Proposta_Automacao_Leads.pdf')
     print("✅ PDF 'Proposta_Automacao_Leads.pdf' gerado com sucesso!")

@@ -54,3 +54,11 @@
 [03/04/2026 18:55:44] ERRO CRÍTICO na main: too many values to unpack (expected 2)
 [03/04/2026 18:57:10] --- NOVA EXECUÇÃO: imobiliaria em mairiporã ---
 [03/04/2026 18:57:38] SUCESSO: 5 leads coletados.
+[05/04/2026 17:47:47] --- NOVA EXECUÇÃO: dentista em itu ---
+[05/04/2026 17:48:12] SUCESSO: 5 leads coletados.
+[05/04/2026 18:02:19] --- NOVA EXECUÇÃO: imobiliaria em osasco | PLANO: ENTERPRISE ---
+[05/04/2026 18:02:49] SUCESSO: 5 leads coletados.
+[14/04/2026 20:28:19] --- NOVA EXECUÇÃO: jundiai em energia solar | PLANO: ENTERPRISE ---
+[14/04/2026 20:28:46] SUCESSO: 5 leads coletados.
+[14/04/2026 20:32:08] --- NOVA EXECUÇÃO: condominio em jundiai | PLANO: ENTERPRISE ---
+[14/04/2026 20:32:39] SUCESSO: 5 leads coletados.
